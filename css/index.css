@@ -30,7 +30,7 @@ nav {
   text-align: center;
   padding: 20px;
   background-color: rgb(177, 191, 206);
-  background-image: url(./img/nutricion.jpg);
+  background-image: url(../img/nutricion.jpg);
   padding: 150px 100px;
   background-position: center center;
   background-size: cover;
@@ -151,7 +151,7 @@ nav {
   font-weight: bolder;
   text-align: center;
   grid-area: titulo1;
-  background-image: url(./img/frutos-secos-1.jpg);
+  background-image: url(../img/frutos-secos-1.jpg);
   padding: 150px 100px;
   text-align: center;
   background-position: center center;
@@ -366,7 +366,7 @@ nav {
   height: 450px;
 }
 .imgAsesPres {
-  background-image: url(./img/presencial.jpg);
+  background-image: url(../img/presencial.jpg);
   padding: 150px 100px;
   text-align: center;
   background-position: center center;
@@ -413,7 +413,7 @@ nav {
 }
 
 .imgAses {
-  background-image: url(./img/asesOniline.jpg);
+  background-image: url(../img/asesOniline.jpg);
   padding: 80px 100px;
   text-align: center;
   background-position: center center;
@@ -504,7 +504,7 @@ nav {
 }
 /* Legumbres */
 .imgProdsLeg {
-  background-image: url(./img/legumbresInfo.jpg);
+  background-image: url(../img/legumbresInfo.jpg);
   padding: 150px 100px;
   text-align: center;
   background-position: center center;
@@ -528,7 +528,7 @@ nav {
 }
 /* semillas */
 .imgProdsSem {
-  background-image: url(./img/semillasinfoo.webp);
+  background-image: url(../img/semillasinfoo.webp);
   padding: 150px 100px;
   text-align: center;
   background-position: center center;
@@ -560,7 +560,7 @@ nav {
   color: deeppink;
 }
 .imgProdsFrut {
-  background-image: url(./img/frutosSecosInfo.jpg);
+  background-image: url(../img/frutosSecosInfo.jpg);
   padding: 150px 100px;
   text-align: center;
   background-position: center center;
