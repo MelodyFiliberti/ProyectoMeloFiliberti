@@ -1,0 +1,741 @@
+.bodyIndex {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav "
+    "titulo titulo titulo titulo"
+    "card card card1 card1"
+    "footerProd footerProd footerProd footerProd";
+  margin: 0;
+  padding: 0;
+  background-color: rgb(212, 212, 212);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.bodyContacto {
+  background-color: rgb(177, 191, 206);
+}
+
+.navIndex {
+  grid-area: nav;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.tituloPrincipal {
+  grid-area: titulo;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(177, 191, 206);
+  background-image: url(/img/nutricion.jpg);
+  padding: 150px 100px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: auto;
+}
+
+.tituloPrincipal:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.tituloPrincipal h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Maven Pro", sans-serif;
+  position: relative;
+  color: #fff;
+}
+.tituloPrincipal h2 {
+  color: #fff;
+  position: relative;
+  font-family: "Maven Pro", sans-serif;
+  padding: 40px;
+}
+
+.cards-body {
+  grid-area: card;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* footer */
+
+.sectionFooter {
+  padding: 20px;
+}
+
+.cards-body1 {
+  display: flex;
+  grid-area: card1;
+  justify-content: center;
+  padding: 20px;
+}
+
+.parrafo {
+  grid-area: parrafo;
+}
+
+.iconosFooter {
+  grid-area: imagenes;
+}
+
+.iconosFooter:hover .nombre {
+  grid-area: nombre;
+}
+
+/* fin footer */
+.footerIndex {
+  grid-area: footer;
+  background-color: #212529;
+  display: flex;
+  padding: 50px;
+  color: white;
+}
+
+.card-body {
+  background-color: pink;
+  font-family: "Maven Pro", sans-serif;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.card-body h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 20px;
+}
+
+.nav-item {
+  font-size: 25px;
+}
+
+.navbar {
+  background-color: rgb(177, 191, 206);
+}
+
+.card img {
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.card {
+  border-radius: 10px;
+}
+/* productos */
+.imagenesCarrousel img {
+  width: 500px;
+}
+
+.imagenesCarrousel {
+  text-align: center;
+  background-color: #212529;
+}
+
+#titulo {
+  padding: 50px;
+
+  font-weight: bolder;
+  text-align: center;
+  grid-area: titulo1;
+  background-image: url(/img/frutos-secos-1.jpg);
+  padding: 150px 100px;
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#titulo:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#titulo h1 {
+  position: relative;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.bodyProductos {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "titulo1 titulo1 titulo1"
+    "carrousel carrousel carrousel"
+    "footer footer footer";
+  background-color: rgb(104, 104, 104);
+}
+
+#carrouselProductos {
+  grid-area: carrousel;
+  padding: 20px;
+}
+
+.legumbres {
+  text-align: center;
+  margin: 10px;
+  padding: 40px;
+}
+
+.frutosSecos {
+  padding: 40px;
+}
+
+.semillas {
+  padding: 40px;
+}
+
+.parrafo {
+  padding: 50px;
+  font-family: "Maven Pro", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.formularioMain {
+  justify-content: center;
+}
+
+.formulario {
+  padding: 150px 0 20px 0;
+  width: 70vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.formulario label {
+  color: #000000;
+}
+
+.formulario h2 {
+  margin: 0;
+  padding: 40px;
+  color: #000000;
+}
+
+.btn {
+  background-color: pink;
+}
+
+/* footer */
+#footer1 {
+  grid-area: footer;
+  padding-bottom: 0%;
+  margin: 0px;
+}
+
+.footer-vender {
+  color: #c5c3c3;
+  background-color: black;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.column2 {
+  align-content: space-evenly;
+  display: flex;
+  justify-content: center;
+}
+
+.column1 p {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+.column3 p {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+.social-foot {
+  text-align: left;
+  padding: 15px;
+  display: inline-flex;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-foot:hover {
+  transform: scale(1.3);
+}
+
+.cards {
+  display: flex;
+}
+
+.tarjetas {
+  padding: 40px;
+}
+
+/* PRODUCTOS */
+.bodyProductos {
+  display: grid;
+  grid-template-areas:
+    "navProd navProd navProd"
+    "mainProd mainProd mainProd"
+    "footerProd footerProd footerProd";
+}
+
+.navProd {
+  grid-area: navProd;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.mainProd {
+  grid-area: mainProd;
+}
+
+.footerProd {
+  grid-area: footerProd;
+  background-color: #000000;
+  padding: 60px 0 60px 100px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.footerContentProd {
+  display: grid;
+  grid-template-areas: "sec1 sec2 sec3";
+  justify-content: baseline;
+}
+
+.sectionPaf {
+  grid-area: sec1;
+}
+.sectionPaf p {
+  color: white;
+}
+
+.sectionIcon {
+  grid-area: sec2;
+}
+.sectionMelo {
+  grid-area: sec3;
+}
+.sectionMelo p {
+  color: white;
+}
+
+.transitionNav li a {
+  transition: all 0.3s ease-in-out;
+}
+.transitionNav li a:hover {
+  transform: scale(1.1);
+  color: pink;
+}
+/* ASESORAMIENTO PRESENCIAL  */
+#subAses {
+  font-family: "Maven Pro", sans-serif;
+  color: #fff;
+  padding: 20px;
+}
+.iframe {
+  text-align: center;
+  padding: 40px;
+  background-color: #595959;
+}
+.iframe iframe {
+  width: 700px;
+  height: 450px;
+}
+.imgAsesPres {
+  background-image: url(/img/presencial.jpg);
+  padding: 150px 100px;
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.imgAsesPres:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imgAsesPres h1 {
+  font-family: "Maven Pro", sans-serif;
+  text-align: center;
+  padding: 70px;
+  position: relative;
+  color: #fff;
+}
+
+.imgAsesPres h2 {
+  color: #fff;
+  position: relative;
+}
+
+.imgAsesPres p {
+  color: #fff;
+  position: relative;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* ASESORAMIENTO ONLINE */
+.asesBody {
+  background-color: #858585;
+  margin: 0;
+  padding: 0;
+}
+
+.imgAses {
+  background-image: url(/img/asesOniline.jpg);
+  padding: 80px 100px;
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.imgAses:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imgAses h1 {
+  font-family: "Maven Pro", sans-serif;
+  text-align: center;
+  padding: 70px;
+  position: relative;
+  color: #fff;
+}
+.imgAses h2 {
+  color: #fff;
+  position: relative;
+}
+.imgAses p {
+  color: #fff;
+  position: relative;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.formAses {
+  text-align: center;
+  padding: 80px;
+  font-family: "Maven Pro", sans-serif;
+}
+.formAses h2 {
+  font-family: "Maven Pro", sans-serif;
+}
+
+/* pages productos */
+.bodyInfo {
+  background-color: #595959;
+}
+.infoProd {
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  padding: 60px;
+}
+.infoProd p {
+  color: #fff;
+  width: auto;
+  text-align: center;
+  padding: 60px 50px 0 50px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.infoProd h2 {
+  color: rgb(255, 165, 243);
+  font-size: 40px;
+  padding: 50px;
+}
+.infoProd ul li {
+  list-style-type: none;
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  justify-content: center;
+}
+
+.botonPedido {
+  text-decoration: none;
+  color: rgb(255, 165, 243);
+  font-family: "Maven Pro", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 50px;
+}
+.botonPedido:hover {
+  color: rgb(247, 87, 119);
+}
+/* Legumbres */
+.imgProdsLeg {
+  background-image: url(/img/legumbresInfo.jpg);
+  padding: 150px 100px;
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.imgProdsLeg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.imgProdsLeg h1 {
+  color: #fff;
+  position: relative;
+  font-family: "Maven Pro", sans-serif;
+}
+/* semillas */
+.imgProdsSem {
+  background-image: url(/img/semillasinfoo.webp);
+  padding: 150px 100px;
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.imgProdsSem:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.imgProdsSem h1 {
+  color: #fff;
+  position: relative;
+  font-family: "Maven Pro", sans-serif;
+}
+/* Frutos Secos */
+.links {
+  color: rgb(255, 165, 243);
+
+  text-decoration: none;
+}
+.links:hover {
+  color: deeppink;
+}
+.imgProdsFrut {
+  background-image: url(/img/frutosSecosInfo.jpg);
+  padding: 150px 100px;
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.imgProdsFrut:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.imgProdsFrut h1 {
+  color: #fff;
+  position: relative;
+  font-family: "Maven Pro", sans-serif;
+}
+
+/* MEDIAQUERIES */
+
+@media (max-width: 900px) and (min-width: 500px) {
+  .bodyProductos {
+    display: block;
+  }
+  .footerContentProd {
+    display: block;
+  }
+  .sectionIcon {
+    padding: 20px;
+  }
+  .sectionPaf {
+    padding: 20px;
+  }
+  .sectionMelo {
+    padding: 20px;
+  }
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  /* index */
+
+  .bodyIndex {
+    display: block;
+  }
+  .tituloPrincipal {
+    width: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .tituloPrincipal h1 {
+    width: auto;
+    position: relative;
+  }
+
+  /* ases */
+  .iframe {
+    display: none;
+  }
+}
+
+@media (max-width: 1268px) and (min-width: 901px) {
+  .bodyProductos {
+    display: block;
+  }
+
+  .container {
+    display: block;
+    text-align: center;
+  }
+  /* index */
+  .bodyIndex {
+    display: block;
+  }
+  .tituloPrincipal {
+    width: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .tituloPrincipal h1 {
+    width: auto;
+    position: relative;
+    text-align: center;
+  }
+  /* ases */
+  .iframe {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) and (min-width: 301px) {
+  .bodyProductos {
+    display: block;
+    align-items: center;
+  }
+  #titulo{
+     text-align: center; 
+     padding: 20px;
+  }
+  #titulo h1{
+      font-size: 50px;
+  }
+  .tarjetas {
+      padding: 10px;
+  }
+  .footerContentProd {
+    display: block;
+  }
+  .container {
+    display: block;
+    text-align: center;
+  }
+  /* index */
+  .bodyIndex {
+    display: block;
+    width: auto;
+  }
+  .tituloPrincipal {
+    display: block;
+    position: relative;
+    align-content: center;
+  }
+
+  .tituloPrincipal h1 {
+    width: auto;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .tituloPrincipal h2 {
+    padding-left: 0;
+    text-align: center;
+    width: auto;
+  }
+  /* ases */
+  .iframe {
+    display: none;
+  }
+
+  .imgProdSem h1 {
+    text-align: center;
+  }
+
+  .imgProdsFrut h1 {
+    text-align: center;
+  }
+
+  .imgAses{
+      width: auto;
+  }
+
+  .imgAses h1{
+    text-align: center;
+    width: auto;
+    padding-left: 0;
+  }
+  .imgAsesPres{
+      width: auto;
+  }
+  .imgAsesPres h1 {
+    text-align: center;
+    width: auto;
+    padding-left: 0;
+  }
+  .asesBody{
+      margin: 0;
+      padding: 0;
+  }
+}
